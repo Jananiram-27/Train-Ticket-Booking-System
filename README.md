@@ -1,10 +1,21 @@
 # Train Ticket Booking System
 
 ## Description
-A **console-based Java application** for booking train tickets with seat allocation using **Object-Oriented Programming (OOP)** concepts.  
-Technologies used: **Java**, **OOP**, **Collections**, **File Handling**.
+
+A console-based Java application for booking train tickets with seat allocation using Object-Oriented Programming (OOP) concepts.  
+Technologies used: Java, OOP, Collections, File Handling.
+## sample Outputs 
+
+### 1. Train Booking
+![Train Booking](outputs/train%20booking.png)
+
+### 2. Train Cancel
+![Train Cancel](outputs/train%20cancel.png)
+
+---
 
 This application allows users to:
+
 - Display available trains
 - Book tickets with seat allocation
 - Cancel booked tickets
@@ -14,47 +25,33 @@ This application allows users to:
 
 ## Features
 
-1. **Display Trains**: Shows all available trains with train number, source, destination, and available seats.  
-2. **Book Ticket**: Book tickets for one or more passengers. Seats are automatically allocated.  
-3. **Cancel Ticket**: Cancel a ticket by entering its Ticket ID. Seats are freed for future bookings.  
-4. **Console-Based**: Runs in the console with interactive menu.
+1. **Display Trains:** Shows all available trains with train number, source, destination, and available seats.
+2. **Book Ticket:** Book tickets for one or more passengers. Seats are automatically allocated.
+3. **Cancel Ticket:** Cancel a booked ticket and free up the allocated seats.
+4. **Handle Multiple Passengers:** Supports booking for multiple passengers in a single ticket.
 
 ---
 
+## Folder Structure
+src/com/trainbooking/ → Contains all your Java source code.
+
+BookingSystem.java → Main class, runs the program and shows menu.
+
+Passenger.java → Represents a passenger.
+
+Ticket.java → Represents a booked ticket.
+
+Train.java → Represents train information and seat availability.
+
+outputs/ → Contains screenshots of the application for README.md.
+
+README.md → Contains project description, features, and screenshots.
+
+.gitignore → To ignore files you don’t want to push to GitHub (e.g., .idea folder).
+
+Train Ticket Booking System.iml → IntelliJ IDEA project file.
 
 
-Press 1 to display trains
 
-Press 2 to book tickets
-
-Press 3 to cancel tickets
-
-Press 4 to exit
-
-Screenshots
-1. Main Menu
-
-2. Display Trains
-
-3. Book Ticket
-
-4. Ticket Confirmation / Cancellation
-
-Take screenshots of your IntelliJ console when you run each stage and save them in a folder screenshots/.
-Replace the placeholder names (screenshot1.png, etc.) with your actual screenshots.
-
-Project Structure
-
-
-Train Ticket Booking System/
-├── src/
-│   └── com/trainbooking/
-│       ├── BookingSystem.java
-│       ├── Passenger.java
-│       ├── Ticket.java
-│       └── Train.java
-├── .gitignore
-├── README.md
-└── screenshots/
 
 
